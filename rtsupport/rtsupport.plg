@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rtsupport - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Sergey\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RTSUPPORT_EXPORTS" /Fp"Release/rtsupport.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\MyProjects\MemoryInfo\rtsupport\HeapProcessor.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Sergey\LOCALS~1\Temp\RSPA9.tmp" 
+Creating temporary file "C:\DOCUME~1\Sergey\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Psapi.lib /nologo /dll /incremental:no /pdb:"Release/rtsupport.pdb" /machine:I386 /def:".\export.def" /out:"Release/rtsupport.dll" /implib:"Release/rtsupport.lib" 
+.\Release\HeapProcessor.obj
+.\Release\rtsupport.obj
+.\Release\StdAfx.obj
+.\Release\ToolHelpSnapeshot.obj
+.\Release\ToolHelpWrp.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Sergey\LOCALS~1\Temp\RSPAA.tmp"
+<h3>Output Window</h3>
+Compiling...
+HeapProcessor.cpp
+Linking...
+   Creating library Release/rtsupport.lib and object Release/rtsupport.exp
+
+
+
+<h3>Results</h3>
+rtsupport.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+LIBRARY     rtsupport.dll
+
+EXPORTS
+    EntryPoint                    @1   ; EntryPoint
